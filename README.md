@@ -55,6 +55,34 @@ Now that you have successfully run the app, let's modify it.
 
    For **iOS**: Hit <kbd>Cmd ⌘</kbd> + <kbd>R</kbd> in your iOS Simulator to reload the app and see your changes!
 
+
+### `android/`
+
+Contains all Android-specific code, configurations, and build files. You generally don’t need to modify these unless you are integrating native modules.
+
+### `ios/`
+
+Contains all iOS-specific code, configurations, and build files. Similar to `android/`, you mostly leave this directory as is unless adding native modules or adjusting settings.
+
+### `src/`
+
+The core of your application code.
+
+- **`components/`**: Contains reusable components like buttons, headers, etc.
+- **`screens/`**: Contains components representing different screens or pages in the app.
+- **`services/`**: Utility functions and API service calls.
+- **`styles/`**: Shared styles and themes for consistent UI design.
+
+### `App.js`
+
+The main component where your app is initialized and routed.
+
+### `index.js`
+
+The entry point of the React Native application, registering the `App` component.
+
+
+
 ## Congratulations! :tada:
 
 You've successfully run and modified your React Native App. :partying_face:
